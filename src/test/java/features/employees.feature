@@ -6,7 +6,7 @@ Feature: Admin employees
     When User add a new employee
     Then employee data is displayed
 
-  @Employee1
+  @Employee
   Scenario: User delete a employee
     Given a employee created
     When User delete a employee
